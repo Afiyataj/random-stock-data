@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>
+        Random Stock Data
+    </h1>
+
+    <div class="select-container">
+      <label>
+        Select Stock:
+      </label>
+      <select id="stock-select"></select>
+    </div>
+
+    <div class="select-container">
+      <label>
+        Days per Page:
+      </label>
+      <select id="days-select">
+        <option value="3">3</option>
+        <option value="5" selected>5</option>
+        <option value="10">10</option>
+      </select>
+
+    </div>
+
+    <div class="table-container">
+      
+      <table id="stock-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Open</th>
+            <th>Close</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+
+    </div>
+    
+    <div class="pagination">
+      <button id="prev-btn" disabled>Prev</button>
+      <span id="page-number">Page 1</span>
+      <button id="next-btn">Next</button>
+    </div>
+
+  </div>
+  
+
+
+  <script src="app.js"></script> 
+
+
+</body>
+
+</html>

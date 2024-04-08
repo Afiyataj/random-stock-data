@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(Image/stock.jpg);
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #0b3661;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.select-container {
+  margin-bottom: 20px;
+}
+
+.select-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.table-container {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  color: fff;
+  border: 1px solid #eee;
+  padding: 8px;
+  text-align: center;
+}
+
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+  color: ccc;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: ccc;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: ccc;
+}
